@@ -1,4 +1,7 @@
-body { font-family: sans-serif;}
+body { 
+  font-family: sans-serif;
+  margin:0px;
+}
 h3 { 
   color: #f2f2f2;
   align: center;
@@ -19,9 +22,10 @@ p { color: #f2f2f2;}
   color: grey;
   background-color: black;
   text-align: center;
-  padding: 10px 16px;
+  width: 16.6%;
+  padding: 10px 30px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .nav-bar a:hover {
