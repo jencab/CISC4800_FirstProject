@@ -38,12 +38,7 @@ font-size: 20px;
 .nav-bar a.active {
   color: white;
 }
-img {
-	height: auto;
-	width: auto;
-	max-width: 500px;
-	max-height: 500px;
-}
+
 .album {
 	display: block;
   margin-left: auto;
