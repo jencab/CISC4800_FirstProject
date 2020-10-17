@@ -8,7 +8,10 @@ h3 {
   font-size: 40px;
   text-align: center;
 }
-p { color: #f2f2f2;}
+p { 
+  color: #f2f2f2;
+  text-align:center;
+}
 
 .nav-bar {
   overflow: hidden;
@@ -23,9 +26,11 @@ p { color: #f2f2f2;}
   background-color: black;
   text-align: center;
   width: 16.6%;
-  padding: 10px 30px;
+  padding: 10px 30px
+  font-family:sans-serif;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 .nav-bar a:hover {
@@ -40,6 +45,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 * {
@@ -56,4 +63,18 @@ img {
   content: "";
   clear: both;
   display: table;
+}
+
+.button {
+  background-color: #003399; /* Dark Blue */
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 2px;
+  cursor: pointer;
 }
