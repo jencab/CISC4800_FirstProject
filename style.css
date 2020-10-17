@@ -47,6 +47,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+.album {
+	height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
 
 * {
   box-sizing: border-box;
