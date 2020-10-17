@@ -1,5 +1,8 @@
 body { font-family: sans-serif;}
-h3 { color: white; }
+h3 { 
+  color: white;
+  align: center;
+}
 p { color: white;}
 
 .nav-bar {
@@ -26,6 +29,11 @@ p { color: white;}
   color: white;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 * {
   box-sizing: border-box;
@@ -37,7 +45,6 @@ p { color: white;}
   padding: 5px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;
