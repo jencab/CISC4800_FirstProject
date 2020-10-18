@@ -65,12 +65,18 @@ p {
   display: table;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button {
   background-color: #003399; /* Dark Blue */
   border: none;
   color: white;
   padding: 10px 20px;
-  border-radius: 12px;
+  border-radius: 12px
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -78,3 +84,9 @@ p {
   margin: 3px 2px;
   cursor: pointer;
 }
+
+.container {
+	height: 30%;
+	width: auto;
+}
+
